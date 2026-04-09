@@ -21,7 +21,7 @@ export const Home = () => {
             </div>
 
             <div className="col-lg-6 hero-image-col order-1 order-lg-2">
-                <img src="./img.webp" alt="Joe sonriendo" className="img-fluid rounded-4 shadow"/>
+                <img src="./image 3.png" alt="Joe sonriendo" className="img-fluid rounded-4 shadow"/>
                 <div className="d-lg-none hero-image-overlay-text p-3">
                     <h3>SonArte — Donde la música y el cómic se encuentran</h3>
                 </div>
