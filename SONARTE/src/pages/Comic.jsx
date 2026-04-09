@@ -21,7 +21,7 @@ export const Comic = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="comic-card p-4 h-100 d-flex flex-column align-items-center">
               <div className="comic-img-container mb-4">
-                <img src="" alt="Inicios de Joe" className="img-fluid rounded-4 shadow-sm" />
+                <img src="./img.webp" alt="Inicios de Joe" className="img-fluid rounded-4 shadow-sm" />
               </div>
               <p className="comic-text mb-4">
                 Explora los inicios de Joe, su niñez y relatos de los que lo vieron crecer
@@ -39,7 +39,7 @@ export const Comic = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="comic-card p-4 h-100 d-flex flex-column align-items-center">
               <div className="comic-img-container mb-4">
-              <img src="" alt="Reinado de Joe" className="img-fluid rounded-4 shadow-sm" />
+              <img src="./img.webp" alt="Reinado de Joe" className="img-fluid rounded-4 shadow-sm" />
               </div>
               <p className="comic-text mb-4">
                 El inicio del reinado de Joe, como exploro e innovo creando un nuevo Son, conoceremos sus canciones mas exitosas
@@ -55,7 +55,7 @@ export const Comic = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="comic-card p-4 h-100 d-flex flex-column align-items-center">
               <div className="comic-img-container mb-4">
-                <img src="" alt="Leyenda de Joe" className="img-fluid rounded-4 shadow-sm" />
+                <img src="./img.webp" alt="Leyenda de Joe" className="img-fluid rounded-4 shadow-sm" />
               </div>
               <p className="comic-text mb-4">
                 El final de una leyenda, acompañalo en sus ultimos momentos de vida, ya que su reinado es eterno

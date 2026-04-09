@@ -19,7 +19,7 @@ export const Sinopsis = () => {
              
               <div className="sinopsis-img-wrapper">
              
-                <img src="" alt="Familia de Joe Arroyo" className="img-fluid rounded-4 shadow"/>
+                <img src="./img.webp" alt="Familia de Joe Arroyo" className="img-fluid rounded-4 shadow"/>
               </div>
             </div>
           </div>
