@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/sinopsis.css';
 
 export const Sinopsis = () => {
   return (

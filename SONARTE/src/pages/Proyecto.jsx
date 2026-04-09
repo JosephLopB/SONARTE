@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/proyecto.css';
 export const Proyecto = () => {
   return (
     <>

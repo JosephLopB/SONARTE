@@ -1,4 +1,4 @@
-
+import '../styles/personajes.css';
 export const Personajes = () => {
   return (
     <>

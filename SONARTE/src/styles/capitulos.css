@@ -1,8 +1,39 @@
+.capitulos-section {
+  background-color: #fcfbf4;
+}
+
+.section-title {
+  color: #3e2719;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
 .capitulos-list-container {
-  background-color: #a65e3e; }
+  background-color: #a65e3e;
+  border: none;
+}
+
+.list-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.chapter-item {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
 
 .chapter-item.active {
-  background-color: #3e2719;   color: white;
+  background-color: #3e2719;
+}
+
+.chapter-item h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .chapter-detail-card {
@@ -10,9 +41,37 @@
   color: #3e2719;
 }
 
+.chapter-detail-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.chapter-detail-card p {
+  font-size: 1.1rem;
+}
+
 .btn-dark-custom {
   background-color: #3e2719;
-  color: white;
-  border-radius: 25px;
+  color: #ffffff;
   border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: transform 0.2s;
 }
+
+.btn-dark-custom:hover {
+  background-color: #2a1a11;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
