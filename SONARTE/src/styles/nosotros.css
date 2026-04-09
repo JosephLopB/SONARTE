@@ -1,0 +1,34 @@
+.equipo-section {
+  background-color: #fcfbf4; }
+
+.equipo-title {
+  color: #3e2719;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.team-card {
+  background-color: #f29f76; 
+  border-radius: 40px;
+  border: none;
+  height: 100%;
+}
+
+.member-img-container img {
+  width: 100%;
+  aspect-ratio: 1.2 / 1; 
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+.member-name {
+  color: #3e2719;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.member-role {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+}

@@ -1,0 +1,18 @@
+.capitulos-list-container {
+  background-color: #a65e3e; }
+
+.chapter-item.active {
+  background-color: #3e2719;   color: white;
+}
+
+.chapter-detail-card {
+  background-color: #f29f76;
+  color: #3e2719;
+}
+
+.btn-dark-custom {
+  background-color: #3e2719;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}

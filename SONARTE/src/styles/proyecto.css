@@ -1,0 +1,26 @@
+.proyecto-section {
+  background-color: #fcfbf4; 
+}
+
+.info-card {
+  background-color: #439697; 
+  color: #3e2719; 
+}
+
+.section-title {
+  font-size: 2.5rem;
+}
+
+.main-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.column-title {
+  font-size: 1.4rem;
+}
+
+.column-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

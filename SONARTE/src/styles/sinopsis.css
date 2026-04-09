@@ -1,0 +1,28 @@
+.sinopsis-section {
+  background-color: #fcfbf4; 
+}
+
+.sinopsis-card {
+  background-color: #439697; 
+  color: #3e2719; 
+}
+
+.sinopsis-title {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sinopsis-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: justify; 
+}
+
+
+.sinopsis-img-wrapper img {
+  width: 100%;
+  max-height: 450px; 
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}

@@ -42,8 +42,30 @@ export const Home = () => {
                         </div>
                         </div>
 
-
+                        <div className="col-12 col-md-4 card-item">
+            <div className="card shadow-sm h-100 border-0">
+                <div className="card-img-wrapper position-relative">
+                
+                  <img src="" className="card-img-top rounded-top" alt="Familia SonArte" />
+                  <div className="card-overlay-text position-absolute bottom-0 start-0 p-3">
+                    <h5 className="card-title text-white">Historias • Raices</h5>
+                  </div>
+                </div>
             </div>
+          </div>
+
+              <div className="col-12 col-md-4 card-item">
+            <div className="card shadow-sm h-100 border-0">
+              <div className="card-img-wrapper position-relative">
+                <img src="" className="card-img-top rounded-top" alt="Interacción SonArte"/>
+                <div className="card-overlay-text position-absolute bottom-0 start-0 p-3">
+                    <h5 className="card-title text-white">Interacción</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         </div>
     </section>
     </>

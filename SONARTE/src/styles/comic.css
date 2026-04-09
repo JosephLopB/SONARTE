@@ -1,0 +1,67 @@
+.comic-container {
+  background-color: #fcfbf4; /* Fondo crema */
+}
+
+.comic-main-title {
+  color: #3e2719;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comic-subtitle {
+  color: #3e2719;
+  font-size: 1rem;
+}
+
+.comic-card {
+  background-color: #f29f76; /* El color naranja/coral de la tarjeta */
+  border-radius: 30px;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.comic-card:hover {
+  transform: translateY(-5px);
+}
+
+.comic-img-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Para que sean cuadradas como en la imagen */
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.comic-text {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+
+.btn-comic-dark {
+  background-color: #3e2719;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  padding: 8px 25px;
+}
+
+.btn-comic-outline {
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 8px 25px;
+}
+
+.btn-comic-dark:hover {
+  background-color: #2a1a11;
+  color: #e6e6e6;
+}
+
+.btn-comic-outline:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
