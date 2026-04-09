@@ -4,7 +4,7 @@ export const Footer = () => {
     <>
 
     <div className="container">
-      
+
       <footer>
 
         <div>
@@ -14,12 +14,19 @@ export const Footer = () => {
 
         <div className="">
           <div className="">Siguenos y se parte de la comunidad SONARTE</div>
-          <div className="">
 
+          <div className="">
+            <a href=""></a>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+            <i class="bi bi-facebook"></i>
           </div>
 
 
-          <div className=""></div>
+          <div className="">
+            
+          </div>
+
         </div>
       </footer>
     </div>
