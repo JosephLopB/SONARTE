@@ -15,8 +15,8 @@ export const Home = () => {
 
             {/* Botones */}
             <div className="hero-buttons d-flex gap-3 justify-content-center justify-content-lg-start">
-                <button className="btn btn-primary btn-brown">Ver cómic</button>
-                <button className="btn btn-secondary btn-coral">Conocer personajes</button>
+                <button className="btn btn btn-brown">Ver cómic</button>
+                <button className="btn btn btn-coral">Conocer personajes</button>
             </div>
             </div>
 
