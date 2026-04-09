@@ -1,3 +1,5 @@
+import '../styles/capitulos.css';
+
 
 export const Capitulos = () => {
   return (
