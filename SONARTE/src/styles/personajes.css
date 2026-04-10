@@ -8,7 +8,6 @@
   font-size: 2.5rem;
 }
 
-
 .character-list-container {
   background-color: #a65e3e;
   min-height: 400px;
@@ -32,34 +31,31 @@
   border-radius: 50%;
 }
 
-.mini-avatar-empty {
-  width: 60px;
-  height: 60px;
-  background-color: #ccc;
-}
-
-
 .character-detail-card {
   background-color: #f29f76; 
   color: #3e2719;
+  padding: 0 !important;
+  overflow: hidden;
 }
 
 .detail-img-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,0.05);
-  border-radius: 25px;
+  border-radius: 25px 25px 0 0;
 }
 
 .detail-img-container img {
-  width: auto;
-  max-width: 100%;
-  height: 400px;
-  object-fit: contain;
+  width: 100%;
+  height: 500px;
+  max-width: none;
+  object-fit: cover;
   display: block;
+}
+
+.detail-info {
+  padding: 2rem;
 }
 
 .detail-description {
