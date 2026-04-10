@@ -46,7 +46,7 @@ export const Capitulos = () => {
               </div>
               
               <div className="image-section ms-md-auto">
-                <img src="./img.webp" alt="Capitulo 1" className="img-fluid rounded-4 shadow" />
+                <img src="image1.png" alt="Capitulo 1" className="img-fluid rounded-4 shadow" />
               </div>
             </div>
           </div>

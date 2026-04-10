@@ -1,67 +1,81 @@
 .comic-container {
-  background-color: #fcfbf4; /* Fondo crema */
+  background-color: #fdfaf2;
+  min-height: 100vh;
 }
 
 .comic-main-title {
-  color: #3e2719;
-  font-family: 'Montserrat', sans-serif;
+  color: #4a2c19;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .comic-subtitle {
   color: #3e2719;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  max-width: 800px;
 }
+
 
 .comic-card {
-  background-color: #f29f76; /* El color naranja/coral de la tarjeta */
-  border-radius: 30px;
-  border: none;
-  transition: transform 0.3s ease;
+  background-color: #f09b7a; 
+  border-radius: 40px; 
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.comic-card:hover {
-  transform: translateY(-5px);
-}
-
-.comic-img-container img {
+.comic-img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Para que sean cuadradas como en la imagen */
+  aspect-ratio: 1/1;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
 
-.comic-text {
+.comic-description {
   color: #ffffff;
   font-size: 0.95rem;
   line-height: 1.4;
-  text-align: center;
+  margin-bottom: 25px;
+  flex-grow: 1; 
 }
 
 
-.btn-comic-dark {
-  background-color: #3e2719;
-  color: white;
-  border-radius: 20px;
-  border: none;
-  font-weight: 600;
-  padding: 8px 25px;
+.comic-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 140px; 
 }
 
-.btn-comic-outline {
-  background-color: transparent;
-  color: white;
-  border: 1.5px solid white;
-  border-radius: 20px;
-  font-weight: 600;
-  padding: 8px 25px;
+.btn-scene {
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  color: white !important;
+  border-radius: 50px !important;
+  padding: 6px 0 !important;
 }
 
-.btn-comic-dark:hover {
-  background-color: #2a1a11;
-  color: #e6e6e6;
+.btn-explore {
+  background-color: #42210b !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 6px 0 !important;
 }
 
-.btn-comic-outline:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
+
+.btn-scene:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.btn-explore:hover {
+  background-color: #2e1708 !important;
+  color: white !important;
 }

@@ -13,7 +13,7 @@ export const Personajes = () => {
               
               
               <div className="character-item selected d-flex align-items-center p-2 mb-3 rounded-4">
-                <img src="ruta/a/joe-mini.jpg" alt="Joe Arroyo" className="mini-avatar rounded-circle me-3" />
+                <img src="perfil.png" alt="Joe Arroyo" className="mini-avatar me-3" />
                 <div className="text-start">
                   <h6 className="mb-0 text-white fw-bold">Joe Arroyo</h6>
                   <small className="text-white-50">Protagonista</small>
@@ -22,7 +22,7 @@ export const Personajes = () => {
 
             
               <div className="character-item d-flex align-items-center p-2 mb-3 rounded-4">
-                <div className="mini-avatar-empty rounded-circle me-3"></div>
+                <img src="perfil.png" alt="Joe Arroyo" className="mini-avatar rounded-circle me-3" />
                 <div className="text-start">
                   <h6 className="mb-0 text-white fw-bold">...</h6>
                   <small className="text-white-50">....</small>
@@ -30,7 +30,7 @@ export const Personajes = () => {
               </div>
 
               <div className="character-item d-flex align-items-center p-2 rounded-4">
-                <div className="mini-avatar-empty rounded-circle me-3"></div>
+                <img src="perfil.png" alt="Joe Arroyo" className="mini-avatar rounded-circle me-3" />
                 <div className="text-start">
                   <h6 className="mb-0 text-white fw-bold">...</h6>
                   <small className="text-white-50">....</small>
@@ -45,7 +45,7 @@ export const Personajes = () => {
             <div className="character-detail-card p-4 rounded-5 shadow-sm">
               <div className="detail-img-container mb-4">
               
-                <img src="" alt="Joe Arroyo" className="img-fluid rounded-4 shadow" />
+                <img src="image3.png" alt="Joe Arroyo" className="img-fluid rounded-4" />
               </div>
               
               <div className="detail-info text-start">

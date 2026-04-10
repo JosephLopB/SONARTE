@@ -4,20 +4,30 @@
 
 .info-card {
   background-color: #439697; 
-  color: #3e2719; 
+  background-image: url('textura.png');
+  background-size: 1800px;
+  background-blend-mode: multiply;
+  opacity: 0.95;
+  border-radius: 40px;
+  color: #3e2719;
+  border: none; 
 }
 
 .section-title {
   font-size: 2.5rem;
+  color: #3e2719;
 }
 
 .main-description {
   font-size: 1.1rem;
   line-height: 1.6;
+  max-width: 900px;
 }
 
 .column-title {
   font-size: 1.4rem;
+  line-height: 1.5;
+  color: #3e2719;
 }
 
 .column-text {

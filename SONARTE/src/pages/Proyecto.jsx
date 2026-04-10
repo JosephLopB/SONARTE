@@ -4,7 +4,7 @@ export const Proyecto = () => {
   return (
     <>
     <section className="proyecto-section py-5">
-      <div className="container">
+      <div className="container px-md-5">
        
         <div className="info-card p-4 p-md-5 rounded-5">
           
@@ -29,8 +29,8 @@ export const Proyecto = () => {
             </div>
 
             {/* Misión */}
-            <div className="col-12 col-md-4">
-              <h4 className="column-title fw-bold mb-3 text-md-center">Mision:</h4>
+            <div className="col-12 col-md-4 text-md-center">
+              <h4 className="column-title fw-bold mb-3">Mision:</h4>
               <p className="column-text text-md-center">
                 Nuestra misión es preservar el folclore colombiano a través de experiencias digitales transmedia que conecten con las nuevas generaciones, integrando arte, música, educación y entretenimiento.
               </p>

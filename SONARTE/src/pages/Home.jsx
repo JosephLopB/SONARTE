@@ -4,70 +4,68 @@ import '../styles/home.css';
 export const Home = () => {
   return (
     <>
-    <section className="home-content py-5">
-        <div className="container">
-            <div className="container">
-                <div className="col-lg-6 hero-text-col order-2 order-lg-1 mt-4 mt-lg-0">
-                    <h1 className="hero-title">SonArte — Donde la música y el cómic se encuentran</h1>
-                    <p className="hero-description text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. (Un proyecto transmedia que rescata el folclore colombiano).
-            </p>
-
-            {/* Botones */}
-            <div className="hero-buttons d-flex gap-3 justify-content-center justify-content-lg-start">
-                <button className="btn btn btn-brown">Ver cómic</button>
-                <button className="btn btn btn-coral">Conocer personajes</button>
-            </div>
-            </div>
-
-            <div className="col-lg-6 hero-image-col order-1 order-lg-2">
-                <img src="./image 3.png" alt="Joe sonriendo" className="img-fluid rounded-4 shadow"/>
-                <div className="d-lg-none hero-image-overlay-text p-3">
-                    <h3>SonArte — Donde la música y el cómic se encuentran</h3>
-                </div>
-              </div>
-            </div>
-
-            {/* Tarjetas */}
-            <div className="row cards-section g-4 justify-content-center">
-
-                <div className="col-12 col-md-4 card-item">
-                    <div className="card shadow-sm h-100 border-0">
-                        <div className="card-img-wrapper position-relative">
-                            <img src="./img.webp" className="card-img-top rounded-top" alt="Hombre tocando congas" />
-                            <div className="card-overlay-text position-absolute bottom-0 start-0 p-3">
-                                <h5 className="card-title text-white">Arte • Musica</h5>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
-                        <div className="col-12 col-md-4 card-item">
-            <div className="card shadow-sm h-100 border-0">
-                <div className="card-img-wrapper position-relative">
-                
-                  <img src="" className="card-img-top rounded-top" alt="Familia SonArte" />
-                  <div className="card-overlay-text position-absolute bottom-0 start-0 p-3">
-                    <h5 className="card-title text-white">Historias • Raices</h5>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-              <div className="col-12 col-md-4 card-item">
-            <div className="card shadow-sm h-100 border-0">
-              <div className="card-img-wrapper position-relative">
-                <img src="./img.webp" className="card-img-top rounded-top" alt="Interacción SonArte"/>
-                <div className="card-overlay-text position-absolute bottom-0 start-0 p-3">
-                    <h5 className="card-title text-white">Interacción</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <main className="home-content">
+      <div className="container-fluid p-0">
         
+        <div className="row align-items-center g-0">
+          <div className="col-lg-6 p-4 ps-lg-5 text-start">
+            <h1 className="hero-title display-4 fw-bold">
+              SonArte — Donde la música y el cómic se encuentran
+            </h1>
+            <p className="hero-description my-4">
+              Un proyecto transmedia que rescata el folclore colombiano a través de historias, 
+              personajes y ritmos que inspiran. Explora el cómic, conoce a los creadores, 
+              y sumérgete en cada capítulo.
+            </p>
+            <div className="d-flex gap-3 mt-4">
+              <button className="btn btn-brown rounded-pill px-4 py-2">Ver cómic</button>
+              <button className="btn btn-coral rounded-pill px-4 py-2">Conocer personajes</button>
+            </div>
+          </div>
+          
+          <div className="col-lg-6">
+            <div className="hero-image-full">
+              <img  src="./image3.png"  alt="Joe sonriendo"  className="img-fluid w-100 h-100 object-fit-cover"/>
+            </div>
+          </div>
         </div>
-    </section>
+ 
+ <div className='container py-5'>
+  <div className='row g-4 justify-content-center'>
+        
+        <div className="row g-4 mt-4">
+          <div className="col-12 col-md-4">
+            <div className="card-custom">
+              <img src="./image5.png" alt="Arte y Música" className="card-img-custom" />
+              <div className="card-text-overlay">
+                <h5 className='text-center w-100'>Arte • Musica</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-4">
+            <div className="card-custom">
+              <img src="./image7.png" alt="Historias y Raíces" className="card-img-custom" />
+              <div className="card-text-overlay">
+                <h5 className='text-center w-100'>Historias • Raices</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-4">
+            <div className="card-custom">
+              <img src="./image8.png" alt="Interacción" className="card-img-custom" />
+              <div className="card-text-overlay">
+                <h5 className='text-center w-100'>Interacción</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+      </div>
+    </main>
     </>
-  )
-}
+  );
+};

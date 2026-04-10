@@ -3,8 +3,14 @@
 }
 
 .sinopsis-card {
-  background-color: #439697; 
-  color: #3e2719; 
+   background-color: #439697; 
+  background-image: url('textura.png');
+  background-size: 1800px;
+  background-blend-mode: multiply;
+  opacity: 0.95;
+  border-radius: 40px;
+  color: #3e2719;
+  border: none;  
 }
 
 .sinopsis-title {
