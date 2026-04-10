@@ -16,7 +16,7 @@ export const Footer = () => {
             <p className="footer-subtitle mb-3">Síguenos y sé parte de la comunidad SonArte</p>
             <div className="footer-socials d-flex justify-content-center gap-3 mb-3">
               <a href="#" className="footer-social-link" aria-label="Instagram">
-                <i className="bi bi-instagram"></i>
+                <i class="bi bi-instagram"></i>
               </a>
               <a href="#" className="footer-social-link" aria-label="TikTok">
                 <i className="bi bi-music-note-beamed"></i>
